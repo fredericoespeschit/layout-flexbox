@@ -142,3 +142,18 @@ nav a:hover {
 .weekday {
    margin-bottom: 10px;
 }
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+    background-color: red;
+}
+
+#geral aside {
+    flex: 1;
+    background-color: green;
+}
