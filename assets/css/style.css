@@ -249,3 +249,32 @@ article .block {
     height: 130px;
     background-color: #39aae1;
 }
+
+.text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #000;
+}
+
+.contact {
+  
+  
+    color: #000;
+    font-size: 14px;
+    
+}
+.icon {
+    
+    width: 30px;
+    height: 30px;
+    background-color: #555555 ;
+}
+
+.desc {
+    display: flex;
+   
+    border-top: 1px solid #bdb9b944;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
