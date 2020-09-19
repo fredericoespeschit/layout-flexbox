@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -183,6 +184,7 @@ nav a:hover {
 article {
     flex: 1;
     min-width: 300px;
+    
     margin-right: 20px;
 }
 article a {
@@ -191,6 +193,7 @@ article a {
 
 article .data {
     display: flex;
+
 }
 
 article .posted {
@@ -214,7 +217,7 @@ article .thumbnail {
 article .thumbnail img {
     width: 100%;
     height: auto;
-    
+
 }
 
 article .news-title {
@@ -229,4 +232,20 @@ article .resume {
     font: 14px;
     line-height: 20px;
     margin-bottom: 30px;
+}
+
+
+#blocks {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+article .block {
+    display: flex;
+    margin-bottom: 60px;
+    width: 130px;
+    height: 130px;
+    background-color: #39aae1;
 }
