@@ -258,23 +258,27 @@ article .block {
 }
 
 .contact {
-  
-  
     color: #000;
     font-size: 14px;
-    
 }
 .icon {
-    
-    width: 30px;
-    height: 30px;
+    display: flex;
+    margin-right: 3px;
+    width: 25px;
+    height: 25px;
     background-color: #555555 ;
 }
 
 .desc {
     display: flex;
-   
+    align-items: center;
     border-top: 1px solid #bdb9b944;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.desc a{
+    text-decoration: none;
+    margin-left: 2px;
+    color:   #2b4c99;
 }
