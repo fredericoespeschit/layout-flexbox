@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -95,7 +94,7 @@ nav a:hover {
 .banner2,
 .banner3 {
     flex: 1;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 20px;
 }
 
@@ -125,9 +124,9 @@ nav a:hover {
 
 .banner-options a {
     display: inline-block;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     padding: 5px;
-    color: #FFF;
+    color: #fff;
     font-size: 14px;
     text-decoration: none;
 }
@@ -141,7 +140,7 @@ nav a:hover {
 }
 
 .weekday {
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #geral {
@@ -151,12 +150,10 @@ nav a:hover {
 
 #geral section {
     flex: 2;
-    
 }
 
 #geral aside {
     flex: 1;
-   
 }
 
 .widget-title {
@@ -184,7 +181,7 @@ nav a:hover {
 article {
     flex: 1;
     min-width: 300px;
-    
+
     margin-right: 20px;
 }
 article a {
@@ -193,12 +190,11 @@ article a {
 
 article .data {
     display: flex;
-
 }
 
 article .posted {
     background-color: #2b4c99;
-    color: #FFF;
+    color: #fff;
     font-size: 12px;
     padding: 10px;
     margin-right: 2px;
@@ -206,7 +202,7 @@ article .posted {
 
 article .comments {
     background-color: #39aae1;
-    color: #FFF;
+    color: #fff;
     font-size: 12px;
     padding: 10px;
 }
@@ -217,7 +213,6 @@ article .thumbnail {
 article .thumbnail img {
     width: 100%;
     height: auto;
-
 }
 
 article .news-title {
@@ -234,13 +229,11 @@ article .resume {
     margin-bottom: 30px;
 }
 
-
 #blocks {
     width: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-   
 }
 article .block {
     display: flex;
@@ -263,22 +256,22 @@ article .block {
 }
 .icon {
     display: flex;
-    margin-right: 3px;
-    width: 25px;
-    height: 25px;
-    background-color: #555555 ;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
 }
 
 .desc {
     display: flex;
     align-items: center;
     border-top: 1px solid #bdb9b944;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.desc a{
+.desc a {
     text-decoration: none;
     margin-left: 2px;
-    color:   #2b4c99;
+    color: #2b4c99;
 }
