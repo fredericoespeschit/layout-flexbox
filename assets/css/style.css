@@ -275,3 +275,34 @@ article .block {
     margin-left: 2px;
     color: #2b4c99;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+.banner-footer {
+    display: flex;
+    flex: 1;
+}
+
+.banner1-footer,
+.banner2-footer,
+.banner3-footer {
+    flex: 1;
+    color: #FFF;
+    padding: 20px;
+}
+
+.banner1-footer {
+    background-color: #39aae1;
+}
+.banner2-footer {
+    background-color: #0079c7;
+}
+
+.banner3-footer {
+    background-color: #2b4c99;
+}
+
