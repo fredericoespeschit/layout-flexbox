@@ -284,7 +284,7 @@ footer {
 
 .banner-footer {
     display: flex;
- 
+   
 }
 
 .banner1-footer,
@@ -307,22 +307,37 @@ footer {
 }
 
 
-.area-footer {
+footer .area-footer {
     display: flex;
+
   
 
 }
-
+.area-item {
+    flex: 1;
+    
+}
 footer .widget-text {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 footer .area-footer {
-    flex: 1;
+  
     
 }  
 
 .footer-copy {
-    border-top: 1px solid #2c2c2c;
+
+    border-top: 1px solid #8f8e8e;
+  line-height: 40px;
     height: 40px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.footer-copy a {
+    text-decoration: none;
+    color: #5c5c5c;
+  
+   
 }
