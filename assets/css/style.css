@@ -368,6 +368,7 @@ footer .widget-text {
     width: 156px;
     color: #5c5c5c;
     line-height: 23px;
+    margin-right: 5px;
 }
 
 .contato a {
@@ -414,4 +415,15 @@ footer .widget-text {
     height: 30px;
     background-color: #555555;
 
+}
+
+.latest-post {
+    line-height: 22px;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.latest-post a {
+    text-decoration: none;
+    color: blue;
 }
