@@ -284,14 +284,18 @@ footer {
 
 .banner-footer {
     display: flex;
-   
+}
+
+.banner-footer a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .banner1-footer,
 .banner2-footer,
 .banner3-footer {
     flex: 1;
-    color: #FFF;
+
     padding: 20px;
 }
 
@@ -306,38 +310,108 @@ footer {
     background-color: #2b4c99;
 }
 
-
 footer .area-footer {
     display: flex;
-
-  
-
 }
 .area-item {
     flex: 1;
-    
 }
 footer .widget-text {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-footer .area-footer {
-  
-    
-}  
-
+.banner-title {
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 13px;
+}
+.banner-text {
+    font-size: 13px;
+}
 .footer-copy {
-
     border-top: 1px solid #8f8e8e;
-  line-height: 40px;
+    line-height: 40px;
     height: 40px;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .footer-copy a {
     text-decoration: none;
     color: #5c5c5c;
-  
+}
+
+.widget-boby {
+    margin-top: 40px;
+}
+
+.text-clinic {
+    color: #5c5c5c;
+}
+
+.text-clinic p {
+    line-height: 22px;
+}
+.end-cont {
+    display: flex;
+    justify-content: space-between;
+}
+.endereco {
+    width: 126px;
+    color: #5c5c5c;
+    margin-top: 25px;
    
+}
+
+.contato {
+    margin-top: 35px;
+    width: 156px;
+    color: #5c5c5c;
+    line-height: 23px;
+}
+
+.contato a {
+    
+    color: #FFF;
+    text-decoration: none;
+}
+
+.social-clinic {
+    display: flex;
+    margin-top: 40px;
+}
+.face {
+    display: flex;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
+
+}
+
+.tt {
+    display: flex;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
+
+}
+
+.youtube {
+    display: flex;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
+
+}
+
+.email {
+    display: flex;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
+
 }
