@@ -328,18 +328,7 @@ footer .widget-text {
 .banner-text {
     font-size: 13px;
 }
-.footer-copy {
-    border-top: 1px solid #8f8e8e;
-    line-height: 40px;
-    height: 40px;
-    margin-top: 30px;
-    font-size: 14px;
-}
 
-.footer-copy a {
-    text-decoration: none;
-    color: #5c5c5c;
-}
 
 .widget-boby {
     margin-top: 40px;
@@ -426,4 +415,37 @@ footer .widget-text {
 .latest-post a {
     text-decoration: none;
     color: blue;
+}
+
+.latest-tweets {
+
+    line-height: 22px;
+    color: #5c5c5c;
+    margin-bottom: 15px;
+}
+
+.latest-tweets a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.latest-tweets span a{
+    
+    color: blue;
+    text-decoration: none;
+}
+
+
+.footer-copy {
+    border-top: 1px solid #8f8e8e;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.footer-copy a {
+    text-decoration: none;
+    color: #5c5c5c;
 }
